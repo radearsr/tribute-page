@@ -1,0 +1,168 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: black;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+nav ul li a:hover {
+  opacity: 1;
+}
+
+section {
+  padding-top: 60px;
+}
+
+#title {
+  font-size: 5em;
+  text-align: center;
+}
+
+#tagline {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  font-weight: normal;
+  text-align: center;
+}
+
+#img-div {
+  text-align: center;
+  padding: 0 10px;
+}
+
+#image {
+  margin: 0 auto;
+  max-width: 100%;
+  filter: grayscale(100%);
+  display: block;
+}
+
+#tribute-info {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+#tribute-info ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.card {
+  width: 25%;
+  height: 300px;
+  border: 1px solid rgb(223, 223, 223);
+}
+
+.card img {
+  width: 100%;
+  height: 60%;
+}
+
+.card a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.808);
+  text-transform: capitalize;
+  margin: 5px;
+  font-size: 1.4em;
+  transition: 0.5s;
+  font-weight: 600;
+  margin: 20px auto;
+  display: block;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+#videos {
+  text-align: center;
+  margin: 50px 0;
+}
+
+#videos .section-title {
+  margin: 10px 0;
+}
+
+.video-item {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.video-item iframe {
+  margin: 10px 0;
+}
+
+#follow {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+#follow .section-title {
+  color: white;
+}
+
+.icon-sosmed {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.instagram,
+.facebook,
+.twitter,
+.youtube {
+  background-size: cover;
+}
+
+.instagram {
+  background-image: url("../img/instagram.svg");
+}
+.facebook {
+  background-image: url("../img/facebook.svg");
+}
+.twitter {
+  background-image: url("../img/twitter.svg");
+}
+.youtube {
+  background-image: url("../img/youtube.svg");
+}
